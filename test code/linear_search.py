@@ -4,5 +4,5 @@ def linearSearch(arr, x):
         if arr[i] == x:
             pos = i
             print("Found at {}".format(pos))
-     if pos == -1:
+    if pos == -1:
         print("Not Found")
